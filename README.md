@@ -1,10 +1,10 @@
-# SWAT-MODFLOW model with PEST in UNIST (20220506)
+# SWAT-MODFLOW model with PEST
 
 ## Get data and jupyter notebooks
 You essentially have 2 options:
 
 #### - Easy way
-- [Download the data zip file](https://github.com/spark-brc/swatmf_pest_unist/archive/refs/heads/main.zip)
+- [Download the data zip file](https://github.com/spark-brc/swatmf_pest_zon/archive/refs/heads/main.zip)
 - Unzip it to a prefered location.
 - After unzipping the archive file, unzip the "SWAT-MODFLOW" model zip file too.
 
@@ -20,7 +20,7 @@ You essentially have 2 options:
     - Clone the materials by executing the following in the git bash or terminal window:    
 
     ```bash
-    git clone https://github.com/spark-brc/swatmf_pest_unist.git
+    git clone https://github.com/spark-brc/swatmf_pest_zon.git
     ```  
         
 ## Installation
@@ -32,13 +32,13 @@ To execute jupyter notebook, we need the Anaconda environment.
     * Important - on Windows, choose option to install “for this user only” (Note, if you already have Anaconda installed, just skip to the next step which you will still need to run)
 
 #### 2. Set Environment and install libraries:
-- On Windows open the Anaconda Prompt from Start menu (on a Mac/Linux just open a terminal). And paste in this string and execute (this creates a python environment (swatmf_pest) that will work with our codes):
+- On Windows open the Anaconda Prompt from Start menu (on a Mac/Linux just open a terminal). And paste in this string and execute (this creates a python environment (swatmf) that will work with our codes):
 ```bash
-conda create -n swatmf_pest python=3.9 jupyter notebook
+conda create -n swatmf python=3.9 jupyter notebook
 ```
-- Activate the swatmf_pest environment
+- Activate the swatmf environment
 ```bash
-conda activate swatmf_pest 
+conda activate swatmf 
 ```
 - Finally, install libraries 
 ```bash
@@ -48,7 +48,7 @@ pip install swatmf
 Then change directory into the example folder or drive:  
 - Change directory (example) or select drive where the dataset was downloaded
 ```bash
-cd swatmf_pest_unist-main
+cd swatmf_pest_zon-main
 ```  
 - Launch jupyter notebook 
 ```bash
